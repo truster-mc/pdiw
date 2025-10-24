@@ -1,0 +1,104 @@
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+body {
+    width: 1200px;
+    margin: 0px auto;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    align-items: center;
+}
+
+
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+nav {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    align-items: center;
+}
+nav button {
+    padding: 20px 35px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 14px;
+    font-size: 20px;
+    height: fit-content;
+}
+
+.presentation-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    }
+h1 {
+    font-size: 80px;
+}
+.presentation-section p {
+font-size: 20px;
+}
+
+.presentation-section button {
+    padding: 20px 35px;
+    background-color: black;
+    color: white;
+    border-radius: 14px;
+    font-size: 20px;
+
+}
+
+.partners-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.team-section h3 {
+font-size: 30px;
+display: flex;
+
+}
+
+.team-section p {
+font-size: 18px;
+}
+
+
+.team-section-content {
+    display: flex;
+    border-radius: 45px;
+    gap: 275px;
+    background-color: #F3F3F3;
+}
+
+.team-section-content p {
+    font-size: 18px;
+}
+
+.team-section button {
+    padding: 20px 35px;
+    background-color: black;
+    color: white;
+    border-radius: 14px;
+    font-size: 20px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+}
+.team-section-content div {
+    padding: 60px;
+}
