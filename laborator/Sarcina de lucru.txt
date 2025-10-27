@@ -1,0 +1,5 @@
+un site din minim 3 pagini (about me, contacts, si inca ceva)
+css 1 id, 2 clase minim
+forma de contact (de la cine, numele email, si mesaj)
+
+header, footer, nav - obligatoriu
