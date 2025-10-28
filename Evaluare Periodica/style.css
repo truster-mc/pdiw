@@ -148,8 +148,26 @@ footer {
     box-sizing: border-box;
 }
 .container-projects img {
-    width: 100%;
+    width: auto;
     height: auto;
     margin-top: 20px;
-    flex-direction: column;
+    flex-direction: row;
+}
+.header-projects {
+    padding: 20px;
+    justify-content: center;
+    text-align: center;
+}
+.container-about {
+    display: flex;
+    flex: 1;
+    width: 100%;
+    padding: 0px 20px;
+    box-sizing: border-box;
+    text-align: center;
+}
+.container-about p {
+    margin-top: 20px;
+    font-size: 18px;
+    line-height: 1.6;
 }
