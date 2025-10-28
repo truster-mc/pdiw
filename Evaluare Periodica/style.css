@@ -55,6 +55,7 @@ body {
 .container {
     display: flex;
     flex: 1;
+    width: 100%;
     /* width: 100vw;
     height: calc(100vh - 38px); 
   */
@@ -122,4 +123,19 @@ body {
     display: block;
     text-align: center;
 
+}
+footer {
+    text-align: center;
+
+    background-color: rgb(250, 70, 22);
+    color: white;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+ width: 100%;
+    align-items: center;
+    justify-content: center;
 }
