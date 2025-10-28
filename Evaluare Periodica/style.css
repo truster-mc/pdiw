@@ -124,6 +124,7 @@ body {
     text-align: center;
 
 }
+
 footer {
     text-align: center;
 
@@ -135,7 +136,7 @@ footer {
     display: flex;
     flex-direction: column;
     gap: 10px;
- width: 100%;
+    width: 100%;
     align-items: center;
     justify-content: center;
 }
@@ -147,17 +148,20 @@ footer {
     padding: 20px 40px;
     box-sizing: border-box;
 }
+
 .container-projects img {
     width: auto;
     height: auto;
     margin-top: 20px;
     flex-direction: row;
 }
+
 .header-projects {
     padding: 20px;
     justify-content: center;
     text-align: center;
 }
+
 .container-about {
     display: block;
     flex: 1;
@@ -166,8 +170,13 @@ footer {
     box-sizing: border-box;
     text-align: center;
 }
+
 .container-about p {
     margin-top: 20px;
     font-size: 18px;
     line-height: 1.6;
+}
+
+.yarndings {
+    font-family: "Yarndings 20", system-ui;
 }
