@@ -16,21 +16,40 @@ body {
 
 
 .logo {
-    height: 20px;
-    width: 20px;
-} 
-.menu, .header {
+    height: 40px;
+    width: 40px;
+}
+
+.menu,
+.header {
     display: flex;
     align-items: center;
-}    
-.header{
-
-  justify-content: space-around;
 }
+
+.header {
+    padding: 20px;
+    justify-content: space-around;
+}
+
 .menu {
-    gap: 10px;  
-    background-color: #f0f0f0;
-    padding: 10px;
+    gap: 10px;
+
+}
+
+.menu a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding: 20px 30px;
+}
+
+.menu a:hover {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+
+
+    background-color: rgb(250, 70, 22);
+
 }
 
 .container {
@@ -41,13 +60,66 @@ body {
   */
 }
 
-.left, .right {
+.left,
+.right {
     /* de aflat de ce apare bottom scroll in Chrome */
     flex-basis: 50%;
-    display: flex
+    display: flex;
+    flex-direction: column;
+    height: 100%;
 }
 
 .left {
-    flex-direction: column;
+    justify-content: space-around;
     align-items: center;
+}
+
+.right {
+    justify-content: space-evenly;
+}
+
+/* selectam primul level de child de tip img */
+.left div>img {
+    width: 400px;
+    height: auto;
+}
+
+.right .right-title {
+    font-size: 88px;
+    font-weight: bold;
+    margin: 0;
+    padding-right: 40px;
+}
+
+.right>div:last-child {
+    display: flex;
+    gap: 10px;
+}
+
+.right>div:last-child>p {
+    text-align: justify;
+    padding-right: 40px;
+    flex-basis: 65%;
+}
+
+.right>div:last-child>div:first-child {
+
+
+    flex-basis: 35%;
+}
+
+.right .dispatch-skills {
+    padding-inline-start: 20px;
+}
+
+#id-marius-transmite-salutari {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    padding: 20px 30px;
+    background-color: rgb(250, 70, 22);
+    margin: 20px 50px 20px 0;
+    display: block;
+    text-align: center;
+
 }
