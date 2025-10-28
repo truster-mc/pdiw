@@ -3,3 +3,15 @@ css 1 id, 2 clase minim
 forma de contact (de la cine, numele email, si mesaj)
 
 header, footer, nav - obligatoriu
+
+
+1. Pagina de titlu
+2. Cuprins
+3. Descrierea Proiectului
+4. Scop
+5. obiective
+6. Functionalitati Cheie
+7. Culorile alese
+8. Structura siteului - cite pagini, din ce este format
+9. Fiecare Pagina descrisa pe scurt cu design figma sau schema
+10. Concluzii
